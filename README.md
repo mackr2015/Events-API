@@ -6,3 +6,9 @@ reference https://www.youtube.com/watch?v=qj2oDkvc4dQ&list=PLZlA0Gpn_vH8jbFkBjOu
 ### Tasks
 [] - Create User Input
 [] - User insert data into Event
+
+### Structure
+
+- models holding model views for MongoDB
+- routes is our route paths/urls
+- views is holding our layout views
