@@ -1,0 +1,17 @@
+<h2>Search Authors</h2>
+
+<!-- Get route and not a post -->
+<form action="authors" method="GET">
+  <label>Name</label>
+  <input type="text" name="name" value="<%= searchOptions.name %>">
+  <button type="submit">Search</button>
+</form>
+<br>
+
+<!-- render authors from routes/authors.js
+res.render('authors/index', { authors: authors });
+-->
+
+<% authors.forEach(author => { %>
+  <div><%= author.name %></div>
+<% }) %>
